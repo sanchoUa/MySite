@@ -1,0 +1,65 @@
+.contact_fone .btn_s {
+    margin-top: -1px;
+    margin-left: -1px;
+    position: absolute;
+    background: #976728;
+    height: 75px;
+    width: 75px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 50px;
+    transition: ease .2s;
+}
+.contact_fone .btn_s:hover {
+    margin-left: -5px;
+    margin-top: -8px;
+    background: #f8a841;
+}
+
+.rightLine .one_s {
+    float: right;
+	border-top: 75vh solid #f8a841;
+	border-left: 30vw solid transparent;
+    animation-duration: 2s;
+}
+.rightLine .three_s {
+    margin-left: 6.5vw;
+    float: right;
+    position: absolute;
+	border-top: 60vh solid #976728;
+	border-left: 23.5vw solid transparent;
+    animation-duration: 1.4s;
+}
+
+.skills_s {
+    background: #976728;
+    color: white;
+    transition: ease .3s;
+}
+.education_s {
+    background: #976728;
+    color: white;
+    transition: ease .3s;
+}
+.projects_s {
+    background: #976728;
+    color: white;
+    transition: ease .3s;
+}
+.indev_s {
+    background: #976728;
+    color: white;
+    transition: ease .3s;
+}
+.skills_s:hover {
+    background: #f8a841;
+}
+.education_s:hover {
+    background: #f8a841;
+}
+.projects_s:hover {
+    background: #f8a841;
+}
+.indev_s:hover {
+    background: #f8a841;
+}

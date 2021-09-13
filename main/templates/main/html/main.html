@@ -1,0 +1,201 @@
+{% load static %}
+
+<!doctype html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MySite</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="{% static 'main/css/firstTheme.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/secondTheme.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/thirdTheme.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/withoutTheme.css' %}">
+    <script src="https://kit.fontawesome.com/3a1d3018aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="firstSec">
+
+        <div class="circles">
+            <div class="one_active"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+        </div>
+
+        <div class="title">
+            <h2>Hi, my name is</h2>
+            <h1>Hladchuck</h1>
+            <h1>Olexandr</h1>
+            <h2>DEVELOPER</h2>
+            <div class="contact_div">
+                <div class="contact_fone"><div class="btn_f"><a href="">CV</a></div></div>
+                <div class="contact_fone"><div class="btn_f"><a href="https://t.me/sancho_ua"><img src="{% static 'main/img/telegram.png' %}" alt=""></a></div></div>
+                <div class="contact_fone"><div class="btn_f"><a href=""><img src="{% static 'main/img/github.png' %}" alt=""></a></div></div>
+                <div class="contact_fone"><div class="btn_f"><img src="{% static 'main/img/mail.png' %}" alt=""></div></div>
+            </div>
+
+        </div>
+
+        <div class="rightLine">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+        </div>
+
+    </div>
+    <div class="menu">
+        <div id="about" class="about">about me</div>
+        <div id="skills" class="skills_f"><img src="{% static 'main/img/skills.png' %}" alt=""><div>skills</div></div>
+        <div id="education" class="education_f"><img src="{% static 'main/img/education.jpg' %}" alt=""><div>education</div></div>
+        <div id="projects" class="projects_f"><img src="{% static 'main/img/projects.jpg' %}" alt=""><div>projects</div></div>
+        <div id="indev" class="indev_f"><img src="{% static 'main/img/indev.jfif' %}" alt=""><div>indev</div></div>
+    </div>
+    <div class="secondSec">
+        <div class="aboutText">
+            <div class="circles secondCircles">
+                <div class="one_active"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+            <p class="secondText">Hi, I'm Olexandr. I am 18.
+                Right now I'm studying programming on Python and JS.
+                I want to build a smiling career in IT.
+                This area seems to me very promising and interesting.
+                I started learning programming when I was 17. Later I decided to dive into Python, then I added JS to my life.</p>
+        </div>
+        <img class="man2fone" src="{% static 'main/img/Triangle.png' %}" alt="">
+    </div>
+    <div class="thridSec">
+        <div class="thridTitle">Skills</div>
+        <div class="skillSec">
+            <div class="skillBox">
+            <div class="skillCircle"></div>
+            <div class="skillName">Python</div>
+            <div class="skillLvl">
+                <div class="lvl1 activeLvl"></div>
+                <div class="lvl2 activeLvl"></div>
+                <div class="lvl3 activeLvl"></div>
+                <div class="lvl4 activeLvl"></div>
+                <div class="lvl5"></div>
+            </div>
+        </div>
+            <div class="skillBox">
+                <div class="skillCircle"></div>
+                <div class="skillName">Django</div>
+                <div class="skillLvl">
+                    <div class="lvl1 activeLvl"></div>
+                    <div class="lvl2 activeLvl"></div>
+                    <div class="lvl3 activeLvl"></div>
+                    <div class="lvl4"></div>
+                    <div class="lvl5"></div>
+                </div>
+            </div>
+            <div class="skillBox">
+                <div class="skillCircle"></div>
+                <div class="skillName">PyQt</div>
+                <div class="skillLvl">
+                    <div class="lvl1 activeLvl"></div>
+                    <div class="lvl2 activeLvl"></div>
+                    <div class="lvl3 activeLvl"></div>
+                    <div class="lvl4 activeLvl"></div>
+                    <div class="lvl5"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skillSec">
+            <div class="skillBox">
+                <div class="skillCircle"></div>
+                <div class="skillName">JavaScript</div>
+                <div class="skillLvl">
+                    <div class="lvl1 activeLvl"></div>
+                    <div class="lvl2 activeLvl"></div>
+                    <div class="lvl3 activeLvl"></div>
+                    <div class="lvl4"></div>
+                    <div class="lvl5"></div>
+                </div>
+            </div>
+            <div class="skillBox">
+                <div class="skillCircle"></div>
+                <div class="skillName">HTTP/HTTPS/API</div>
+                <div class="skillLvl">
+                    <div class="lvl1 activeLvl"></div>
+                    <div class="lvl2"></div>
+                    <div class="lvl3"></div>
+                    <div class="lvl4"></div>
+                    <div class="lvl5"></div>
+                </div>
+            </div>
+            <div class="skillBox">
+                <div class="skillCircle"></div>
+                <div class="skillName">SQL</div>
+                <div class="skillLvl">
+                    <div class="lvl1 activeLvl"></div>
+                    <div class="lvl2 "></div>
+                    <div class="lvl3"></div>
+                    <div class="lvl4"></div>
+                    <div class="lvl5"></div>
+                </div>
+            </div>
+        </div>
+        <div class="skillSec">
+            <div class="skillBox">
+            <div class="skillCircle"></div>
+            <div class="skillName">HTML/CSS</div>
+            <div class="skillLvl">
+                <div class="lvl1 activeLvl"></div>
+                <div class="lvl2 activeLvl"></div>
+                <div class="lvl3 activeLvl"></div>
+                <div class="lvl4 activeLvl"></div>
+                <div class="lvl5"></div>
+            </div>
+        </div>
+            <div class="skillBox">
+                <div class="skillCircle"></div>
+                <div class="skillName">GIT</div>
+                <div class="skillLvl">
+                    <div class="lvl1 activeLvl"></div>
+                    <div class="lvl2 activeLvl"></div>
+                    <div class="lvl3 "></div>
+                    <div class="lvl4"></div>
+                    <div class="lvl5"></div>
+                </div>
+            </div>
+            <div class="skillBox">
+                <div class="skillCircle"></div>
+                <div class="skillName"></div>
+                <div class="skillLvl">
+                    <div class="lvl1 "></div>
+                    <div class="lvl2 "></div>
+                    <div class="lvl3 "></div>
+                    <div class="lvl4 "></div>
+                    <div class="lvl5"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fourthSec">
+        <div class="aboutText4">
+            <div class="FourthTitle">Education</div>
+            <p class="secondText">I am studing at the Vinnytsia National Technical University.
+            My specialty is computer science.
+            I also took the cs500 course.
+            In addition, I take Udemy courses to help me improve my skills.</p>
+        </div>
+        <div class="CSimage"><img src="{% static 'main/img/CS50x.png' %}" alt=""></div>
+    </div>
+
+    <div class="scrollBtn hide">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script src="{% static 'main/js/changeTheme.js' %}"></script>
+    <script src="{% static 'main/js/allScript.js' %}"></script>
+    <script src="{% static 'main/js/animation.js' %}"></script>
+
+</body>
+</html>

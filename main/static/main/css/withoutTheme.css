@@ -1,0 +1,525 @@
+
+body {
+    background: white;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.scrollBtn {
+    background: #202020;
+    position: fixed;
+    width: 60px;
+	height: 60px;
+    margin: 4px 10px;
+    bottom: 10px;
+    right: 20px;
+    text-align: center;
+	border-radius: 30px;
+    cursor: pointer;
+    transition: ease .2s;
+}
+.scrollBtn:hover {
+    background: #5a5a5a;
+}
+.scrollBtn i {
+    margin: 15% auto;
+    color: white;
+    font-size: 40px;
+}
+.show {
+    display: block;
+    transition: ease .2s;
+    animation-duration: .7s;
+    animation-name: scrollBtnShow;
+}
+.hide {
+    opacity: 0;
+    bottom: -60px;
+}
+.hideFade {
+    animation-duration: .7s;
+    animation-name: scrollBtnHide;
+}
+@keyframes scrollBtnShow {
+    from {
+        opacity: 0;
+        bottom: -60px;
+    }
+    to {
+        opacity: 1;
+        bottom: 10px;
+    }
+}
+@keyframes scrollBtnHide {
+    from {
+        opacity: 1;
+        bottom: 10px;
+    }
+    to {
+        opacity: 0;
+        bottom: -60px;
+    }
+}
+
+
+.firstSec {
+    height: 80vh;
+    width: 100vw;
+    background: #202020;
+    position:relative;
+}
+
+.title {
+    margin-left: 12vw;
+    margin-top: 17vh;
+    position: absolute;
+    color: white;
+}
+
+.title h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.title h2 {
+    font-size: 25px;
+}
+
+.contact_fone {
+    margin-right: 10px;
+    display: inline-block;
+    background: black;
+    height: 73px;
+    width: 73px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.contact_fone a {
+    color: white;
+    text-decoration: none;
+}
+.contact_fone img {
+    margin-top: -13px;
+    height: 70px;
+    width: 70px;
+}
+
+.circles{
+    position: absolute;
+    margin: 2%;
+}
+.circles div {
+    margin-right: 15px;
+    margin-left: 15px;
+    display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+    transition: ease .2s;
+    cursor: pointer;
+}
+.circles .one {
+    background: #8b8b8b;
+}
+.circles .two {
+    background: #f8a841;
+}
+.circles .three {
+    background: #4067e4;
+}
+.circles .one_active {
+    background: #8b8b8b;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+.circles .two_active {
+    background: #f8a841;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+.circles .three_active {
+    background: #4067e4;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+.circles div:hover {
+    width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+.rightLine {
+    height: 75vh;
+    width: 30vw;
+    float: right;
+}
+
+.rightLine .one {
+    float: right;
+	border-top: 75vh solid #8b8b8b;
+	border-left: 30vw solid transparent;
+    animation-duration: 2s;
+    animation-name: start_one;
+}
+.rightLine .two {
+    margin-left: 4vw;
+    float: right;
+    position: absolute;
+	border-top: 65vh solid white;
+	border-left: 26vw solid transparent;
+    animation-duration: 1.8s;
+    animation-name: start_two;
+}
+.rightLine .three {
+    margin-left: 6.5vw;
+    float: right;
+    position: absolute;
+	border-top: 60vh solid #3a3a3a;
+	border-left: 23.5vw solid transparent;
+    animation-duration: 1.4s;
+    animation-name: start_three;
+}
+.rightLine .four {
+    margin-left: 10.5vw;
+    float: right;
+    position: absolute;
+	border-top: 50vh solid black;
+	border-left: 19.5vw solid transparent;
+    animation-duration: 1s;
+    animation-name: start_four;
+}
+.rightLine .five {
+    margin-left: 11.5vw;
+    float: right;
+    position: absolute;
+	border-top: 47vh solid #202020;
+	border-left: 18.5vw solid transparent;
+}
+
+@keyframes start_one {
+    from {
+        border-top: 280vh solid #8b8b8b;
+	    border-left: 280vw solid transparent;
+    }
+    to {
+        border-top: 75vh solid #8b8b8b;
+	    border-left: 30vw solid transparent;
+    }
+}
+@keyframes start_two {
+    from {
+        margin-left: -120vw;
+        float: right;
+        position: absolute;
+        border-top: 280vh solid #8b8b8b;
+	    border-left: 280vw solid transparent;
+    }
+    to {
+        margin-left: 4vw;
+        float: right;
+        position: absolute;
+        border-top: 65vh solid white;
+	    border-left: 26vw solid transparent;
+    }
+}
+@keyframes start_three {
+    from {
+        margin-left: -120vw;
+        float: right;
+        position: absolute;
+        border-top: 280vh solid #8b8b8b;
+	    border-left: 280vw solid transparent;
+    }
+    to {
+        float: right;
+        position: absolute;
+        margin-left: 6.5vw;
+        border-top: 60vh solid #3a3a3a;
+        border-left: 23.5vw solid transparent;
+    }
+}
+@keyframes start_four {
+    from {
+        margin-left: -120vw;
+        float: right;
+        position: absolute;
+        border-top: 280vh solid #8b8b8b;
+	    border-left: 280vw solid transparent;
+    }
+    to {
+        margin-left: 10.5vw;
+        float: right;
+        position: absolute;
+        border-top: 50vh solid black;
+        border-left: 19.5vw solid transparent;
+    }
+}
+.menu {
+    width: 100vw;
+    height: 10vh;
+    background: #8b8b8b;
+    position: relative;
+}
+.menu div {
+    float: left;
+    height: 10vh;
+    min-width: 200px;
+    width: 20vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.menu div div {
+    position: absolute;
+}
+.about {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: black;
+}
+.menu div img {
+    position: absolute;
+    object-fit: cover;
+    float: left;
+    height: 10vh;
+    width: 20vw;
+    min-width: 200px;
+    opacity: .35;
+}
+.messageBox {
+    opacity: 0;
+    top: 380px;
+    left: 280px;
+    position: absolute;
+    width: 270px;
+    display: flex;
+}
+.copyBtn {
+    margin-left: 10px;
+    transition: ease .2s;
+    cursor: pointer;
+}
+.closeBtn {
+    margin-left: 10px;
+    transition: ease .2s;
+    cursor: pointer;
+}
+.man {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    height: 70vh;
+    animation-duration: 2s;
+    animation-name: man;
+    opacity: 1;
+}
+@keyframes man {
+    from {
+        height: 0;
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        height: 70vh;
+    }
+}
+
+.secondSec {
+    height: 90vh;
+    width: 100vw;
+    background: white;
+    position:relative;
+}
+.aboutText {
+    position: absolute;
+    float: right;
+    height: 80vh;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 5vw;
+}
+.secondSec .images {
+    position: absolute;
+    float: left;
+    height: 80vh;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 5vw;
+}
+.man2fone {
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    width: 30vw;
+}
+.secondCircles{
+    position: absolute;
+    margin: 0;
+    align-content: center;
+    top: 12vh;
+}
+.secondText {
+    position: absolute;
+    width: 35vw;
+    align-content: center;
+    top: 30vh;
+    font-size: 25px;
+}
+
+.thridSec {
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    background: #202020;
+    position:relative;
+    display: inline-block;
+    align-content: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+.thridTitle {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5vh 0;
+}
+.skillSec {
+    justify-content: space-between;
+    display: inline-flex;
+    width: 90vw;
+}
+
+.skillBox {
+    margin: 2vw 3vw;
+    height: 150px;
+    width: 470px;
+    border: 6px outset #8b8b8b;
+    position: relative;
+}
+.skillCircle {
+    width: 120px;
+	height: 120px;
+	border-radius: 60px;
+    background: #8b8b8b;
+    margin: 10px;
+    position: absolute;
+}
+.skillName {
+    top: 10px;
+    left: 140px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+}
+.skillLvl {
+    top: 80px;
+    left: 140px;
+    position: absolute;
+    display: inline-flex;
+}
+.skillLvl div {
+    height: 25px;
+    width: 50px;
+    border: 1px outset white;
+    margin-right: 5px;
+}
+
+.activeLvl {
+    background: #b3ff9c;
+}
+
+.lvlAnim {
+    background: #69cd0c;
+    animation-duration: 1.5s;
+    animation-name: lvlAnim;
+}
+@keyframes lvlAnim {
+    0%{
+        background: #69cd0c;
+    }
+    100% {
+        background: #b3ff9c;
+    }
+}
+
+.lvlAnim2{
+    background: #b3ff9c;
+    animation-duration: 2.5s;
+    animation-name: lvlAnim2;
+}
+@keyframes lvlAnim2 {
+    0%{
+        background: #b3ff9c;
+    }
+    100% {
+        background: #69cd0c;
+    }
+}
+
+.fourthSec {
+    height: 80vh;
+    width: 100vw;
+    background: white;
+    position:relative;
+    display: inline-block;
+    align-content: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+
+.aboutText4 {
+    position: absolute;
+    float: left;
+    height: 80vh;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    left: 5vw;
+}
+.FourthTitle {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20vh;
+}
+.fourthText {
+    position: absolute;
+    width: 35vw;
+    align-content: center;
+    top: 30vh;
+    font-size: 25px;
+}
+.CSimage {
+    position: absolute;
+    float: right;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 5vw;
+}
+.CSimage img {
+    margin-top: 10vh;
+    height: 60vh;
+}

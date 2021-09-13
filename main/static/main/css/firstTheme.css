@@ -1,0 +1,63 @@
+.contact_fone .btn_f {
+    margin-top: -1px;
+    margin-left: -1px;
+    position: absolute;
+    background: #3a3a3a;
+    height: 75px;
+    width: 75px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 50px;
+    transition: ease .2s;
+}
+.contact_fone .btn_f:hover {
+    margin-left: -5px;
+    margin-top: -8px;
+    background: #8b8b8b;
+}
+
+.rightLine .one_f {
+    float: right;
+	border-top: 75vh solid #8b8b8b;
+	border-left: 30vw solid transparent;
+}
+.rightLine .three_f {
+    margin-left: 6.5vw;
+    float: right;
+    position: absolute;
+	border-top: 60vh solid #3a3a3a;
+	border-left: 23.5vw solid transparent;
+}
+
+.skills_f {
+    background: #3a3a3a;
+    color: white;
+    transition: ease .3s;
+}
+.education_f {
+    background: #3a3a3a;
+    color: white;
+    transition: ease .3s;
+}
+.projects_f {
+    background: #3a3a3a;
+    color: white;
+    transition: ease .3s;
+}
+.indev_f {
+    background: #3a3a3a;
+    color: white;
+    transition: ease .3s;
+}
+.skills_f:hover {
+    background: #8b8b8b;
+}
+.education_f:hover {
+    background: #8b8b8b;
+}
+.projects_f:hover {
+    background: #8b8b8b;
+}
+.indev_f:hover {
+    background: #8b8b8b;
+}
