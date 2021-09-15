@@ -190,7 +190,7 @@
     <div class="fifthSec">
         <div class="regForm">
             <div class="regTitle">Sign Up Form</div><br>
-            <form action="" method="post">
+            <form action="check" method="post" > {% csrf_token %}
                 <input type="text" class="form-control" name="name" id="name" placeholder="Name"><br>
                 <input type="text" class="form-control" name="login" id="login" placeholder="Login"><br>
                 <input type="text" class="form-control" name="password" id="password" placeholder="Password"><br>

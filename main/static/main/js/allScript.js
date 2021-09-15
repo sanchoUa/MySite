@@ -115,5 +115,6 @@ scrollBtn.addEventListener('click', scrollUp);
 aboutBtn.addEventListener('click', () => scrollToSec(aboutBtn));
 skillBtn.addEventListener('click', () => scrollToSec(document.querySelector(".thridSec")));
 educationBtn.addEventListener('click', () => scrollToSec(document.querySelector(".fourthSec")));
+projectsBtn.addEventListener('click', () => scrollToSec(document.querySelector(".fifthSec")));
 
 
