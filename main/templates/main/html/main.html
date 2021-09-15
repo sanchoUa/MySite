@@ -9,7 +9,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MySite</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-
     <link rel="stylesheet" href="{% static 'main/css/firstTheme.css' %}">
     <link rel="stylesheet" href="{% static 'main/css/secondTheme.css' %}">
     <link rel="stylesheet" href="{% static 'main/css/thirdTheme.css' %}">
@@ -187,6 +186,19 @@
             In addition, I take Udemy courses to help me improve my skills.</p>
         </div>
         <div class="CSimage"><img src="{% static 'main/img/CS50x.png' %}" alt=""></div>
+    </div>
+    <div class="fifthSec">
+        <div class="regForm">
+            <div class="regTitle">Sign Up Form</div><br>
+            <form action="" method="post">
+                <input type="text" class="form-control" name="name" id="name" placeholder="Name"><br>
+                <input type="text" class="form-control" name="login" id="login" placeholder="Login"><br>
+                <input type="text" class="form-control" name="password" id="password" placeholder="Password"><br>
+                <input type="text" class="form-control" name="repeatpassword" id="repeatpassword" placeholder="Repeat password"><br>
+                <button class="btn btn-success" type="submit">Sign Up</button>
+            </form>
+        </div>
+
     </div>
 
     <div class="scrollBtn hide">

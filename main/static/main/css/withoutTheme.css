@@ -523,3 +523,29 @@ body {
     margin-top: 10vh;
     height: 60vh;
 }
+
+.fifthSec {
+    height: 80vh;
+    width: 100vw;
+    background: #202020;
+    position:relative;
+    display: inline-block;
+    align-content: center;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+.regTitle {
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 18vh;
+}
+.regForm{
+    width: 45vw;
+}
+.regForm form {
+    width: 24vw;
+    margin: 0 auto;
+}
